@@ -530,3 +530,22 @@ This curriculum uses:
 ---
 
 *For questions or support, contact: ai-infra-curriculum@joshua-ferguson.com*
+
+---
+
+## Requirement-to-Module Mapping
+
+| Job Requirement | Curriculum Coverage |
+| --- | --- |
+| Define enterprise-wide AI infrastructure strategy and vision | Module 401 - Enterprise AI Strategy<br>Module 410 - Future AI Infrastructure<br>Project 401 - AI Transformation Strategy |
+| Lead architecture for multi-billion dollar AI platform initiatives | Module 406 - Global Infrastructure & Operations<br>Module 404 - Innovation & R&D Leadership<br>Project 402 - Global Platform Architecture |
+| Establish AI infrastructure governance and operating models | Module 403 - Governance & Standards<br>Module 407 - Partnerships & Vendor Strategy<br>Project 406 - Enterprise Governance Program |
+| Drive strategic technology partnerships and vendor relationships | Module 407 - Partnerships & Vendor Strategy<br>Module 404 - Innovation & R&D Leadership<br>Project 405 - Executive Thought Leadership |
+| Lead innovation and R&D for next-generation AI infrastructure | Module 404 - Innovation & R&D Leadership<br>Module 410 - Future AI Infrastructure<br>Project 403 - Responsible AI Framework |
+| Architect solutions for complex cross-organizational AI initiatives | Module 406 - Global Infrastructure & Operations<br>Module 401 - Enterprise AI Strategy<br>Project 404 - Global Platform Scaling |
+| Provide executive advisory on AI infrastructure investments and roadmap | Module 402 - Executive Leadership & Influence<br>Module 401 - Enterprise AI Strategy<br>Project 401 - AI Transformation Strategy |
+| Define and evolve enterprise architecture standards for AI/ML | Module 403 - Governance & Standards<br>Module 401 - Enterprise AI Strategy<br>Project 406 - Enterprise Governance Program |
+| Lead architecture community of practice and center of excellence | Module 402 - Executive Leadership & Influence<br>Module 409 - Thought Leadership & Advocacy<br>Project 405 - Executive Thought Leadership |
+| Architect responsible AI and ethical AI frameworks | Module 405 - Responsible AI Governance<br>Module 403 - Governance & Standards<br>Project 403 - Responsible AI Framework |
+| Design enterprise-wide data and AI governance structures | Module 403 - Governance & Standards<br>Module 405 - Responsible AI Governance<br>Project 406 - Enterprise Governance Program |
+| Lead digital transformation initiatives leveraging AI infrastructure | Module 401 - Enterprise AI Strategy<br>Module 404 - Innovation & R&D Leadership<br>Project 401 - AI Transformation Strategy |
