@@ -521,3 +521,9 @@ This curriculum is designed for professional development and educational purpose
 ---
 
 *Ready to lead enterprise AI transformation? Start with [MOD-401: Enterprise AI Strategy and Vision](lessons/mod-401-enterprise-ai-strategy/README.md)*
+
+
+---
+
+<!-- aicg:maintained-by -->
+Maintained by [VeriSwarm.ai](https://veriswarm.ai)
