@@ -1,5 +1,9 @@
 # Senior AI Infrastructure Architect - Learning Repository
 
+<!-- aicg:site-banner -->
+> 🎓 Part of the **[AI Infrastructure Curriculum](https://ai-infra-curriculum.github.io/)** — a free, open-source ladder of role-based AI-infrastructure programs. [Explore the ladder](https://ai-infra-curriculum.github.io/) · [Join the first live cohort](https://ai-infra-curriculum.github.io/junior.html)
+<!-- /aicg:site-banner -->
+
 ## Executive Summary
 
 Welcome to the **Senior AI Infrastructure Architect Learning Program** - the pinnacle of AI infrastructure education designed for architects who shape enterprise AI strategy, advise C-suite executives, and influence industry direction. This program prepares you for the highest levels of AI infrastructure leadership at Fortune 500 companies, major technology firms, and organizations undergoing transformational AI initiatives.
@@ -521,7 +525,6 @@ This curriculum is designed for professional development and educational purpose
 ---
 
 *Ready to lead enterprise AI transformation? Start with [MOD-401: Enterprise AI Strategy and Vision](lessons/mod-401-enterprise-ai-strategy/README.md)*
-
 
 ---
 
