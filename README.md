@@ -4,6 +4,10 @@
 > 🎓 Part of the free, open-source **AI Career Curriculum** ecosystem — [Infrastructure](https://github.com/ai-infra-curriculum) · [ML Engineering](https://github.com/ml-engineering-curriculum) · [AI Engineering](https://github.com/ai-engineering-curriculum) · [Governance](https://github.com/ai-governance-curriculum). Live cohorts &amp; team programs: **[ai-infra-curriculum.github.io](https://ai-infra-curriculum.github.io/)**.
 <!-- /aicg:site-banner -->
 
+<!-- aicg:sponsor -->
+> 💜 **[Sponsor this curriculum](https://github.com/sponsors/AI-Infra-Curriculum)** — sponsorships keep the whole open-source AI Career Curriculum free and moving.
+<!-- /aicg:sponsor -->
+
 ## Executive Summary
 
 Welcome to the **Senior AI Infrastructure Architect Learning Program** - the pinnacle of AI infrastructure education designed for architects who shape enterprise AI strategy, advise C-suite executives, and influence industry direction. This program prepares you for the highest levels of AI infrastructure leadership at Fortune 500 companies, major technology firms, and organizations undergoing transformational AI initiatives.
