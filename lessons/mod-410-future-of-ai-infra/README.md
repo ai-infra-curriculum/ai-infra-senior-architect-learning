@@ -60,10 +60,6 @@ and context extension) is partially public and partially inside
 the frontier labs. Reading each roadmap with discipline, mapping
 each to the organization's workload mix, and identifying the no-
 regret moves across them is the senior architect's capstone job.
-<!-- needs-research: refresh the accelerator-and-memory roadmap
-status, the hyperscaler custom-silicon footprint, the HBM supply
-posture, the leading-edge fab-node landscape, and the datacenter-
-siting queue at time of use -->
 
 At this level, "future of AI infrastructure" is a program with
 six parts that must co-exist: a **forecasting-and-scenario
@@ -224,9 +220,6 @@ By the end of this module, you will be able to:
      mathematics" and "AI will not do long-horizon coding"
      predictions, and what the organization learns from each
      having been wrong
-     <!-- needs-research: refresh the state of the AI-forecast
-     track-record literature at time of use; the Metaculus,
-     Manifold, and Good Judgment Open corpora may be relevant -->
    - The standing humility discipline — the organization
      publishes (internally and sometimes externally) its own
      forecasting track record, and treats the discipline as a
@@ -242,30 +235,20 @@ By the end of this module, you will be able to:
      generation jumps in FP8 / FP4 throughput, HBM capacity and
      bandwidth, NVLink generation, and NVSwitch topology; the
      DGX / HGX / MGX / NVL reference-design evolution
-     <!-- needs-research: refresh the NVIDIA accelerator roadmap,
-     the per-generation specifications, and the reference-design
-     landscape at time of use -->
    - *AMD* — the MI300A / MI300X → MI325 → MI350 → MI400 succession;
      the ROCm software-stack trajectory and the frontier-customer
      adoption pattern
-     <!-- needs-research: refresh the AMD accelerator roadmap and
-     ROCm status at time of use -->
    - *Hyperscaler custom silicon* — Google TPU (v5e, v5p, Trillium,
      Ironwood and successors), AWS Trainium (Trainium2 and
      successors) and Inferentia, Microsoft Maia and Cobalt, Meta
      MTIA, Alibaba Hanguang and T-Head Yitian / Cross-Zen, Huawei
      Ascend 910B / 910C / successors; the trajectory of each
      against its parent's own workload mix
-     <!-- needs-research: refresh the hyperscaler custom-silicon
-     roadmap, generation names, and workload-placement patterns at
-     time of use -->
    - *Startup and merchant silicon* — Cerebras, Graphcore,
      SambaNova, Groq, Tenstorrent, Rebellions, Rain, Lightmatter,
      Celestial AI, Etched (Sohu), d-Matrix, Positron, FuriosaAI;
      the training-vs-inference specialization pattern and the
      merchant-market viability thesis for each
-     <!-- needs-research: refresh the accelerator-startup
-     landscape at time of use; the sector consolidates rapidly -->
    - *Sovereign and regional silicon programs* — SMIC-fabricated
      accelerators, European Chips Act outputs (SiPearl, European
      Processor Initiative), Indian Semicon Mission outputs,
@@ -273,8 +256,6 @@ By the end of this module, you will be able to:
      Middle-Eastern programs; the industrial-policy context for
      each and the implications for sovereign-AI deployment
      (reinforced from MOD-406 and MOD-407)
-     <!-- needs-research: refresh the sovereign-silicon program
-     landscape at time of use -->
 
 6. **Memory, interconnect, and packaging**
    - *HBM* — the HBM3E / HBM4 / HBM4e succession, with explicit
@@ -282,29 +263,20 @@ By the end of this module, you will be able to:
      (SK hynix, Samsung, Micron), and the merchant-vs-captive
      allocation pattern; the way HBM supply has become the
      binding constraint on frontier-model serving capacity
-     <!-- needs-research: refresh the HBM roadmap, vendor
-     allocations, and supply posture at time of use -->
    - *Advanced packaging* — CoWoS (TSMC), SoIC, I-Cube / X-Cube
      (Samsung), Foveros / EMIB (Intel), the capacity roadmap
      and allocation pressure; the way packaging capacity has
      become the second binding constraint after HBM
-     <!-- needs-research: refresh the advanced-packaging
-     capacity landscape at time of use -->
    - *Node succession* — TSMC N3 / N3P / N3X → N2 → A16 → A14,
      Samsung SF2, Intel 18A / 14A, with the per-node density,
      performance, and yield trajectory; the customer-allocation
      pattern (leading-edge-first for frontier accelerators) and
      the geopolitical-friction surface
-     <!-- needs-research: refresh the leading-edge node roadmap
-     and allocation pattern at time of use -->
    - *Networking* — NVLink / NVSwitch generation, Infinity Fabric,
      UALink and Ultra Ethernet Consortium, InfiniBand NDR / XDR,
      800G / 1.6T Ethernet, co-packaged optics and silicon photonics,
      linear-pluggable optics; the rack-to-cluster-to-datacenter
      fabric trajectory
-     <!-- needs-research: refresh the AI-fabric landscape — UALink,
-     UEC, Infinity Fabric, NVLink, co-packaged optics — at time
-     of use -->
    - *Storage* — NVMe-oF, CXL-attached memory and storage, the
      NVMe / QLC flash trajectory, object-storage-for-training,
      and the memory-storage disaggregation posture; the way
@@ -331,8 +303,6 @@ By the end of this module, you will be able to:
      Lunar Lake / Panther Lake NPU, AMD Ryzen AI, and the
      consumer-AI-at-the-edge question; the implications for
      the organization's model-distribution and privacy posture
-     <!-- needs-research: refresh the on-device NPU landscape
-     and the capability-per-watt frontier at time of use -->
    - The *training-vs-inference bifurcation* — the specific
      organizational posture question of whether the organization
      uses the same silicon for both (NVIDIA-exclusive), different
@@ -359,9 +329,6 @@ By the end of this module, you will be able to:
      limited through the planning horizon); the specific
      discipline of not letting quantum-marketing noise displace
      actual-workload reasoning
-     <!-- needs-research: refresh the quantum-compute roadmap,
-     fault-tolerance milestones, and the AI-adjacent workload
-     applicability at time of use -->
    - *Biological, molecular, and exotic compute* — the "worth
      a watchlist, not a budget line" category, kept visible
      for completeness
@@ -374,15 +341,11 @@ By the end of this module, you will be able to:
      interconnection-queue status, the equivalent European TSO
      queues (TenneT, 50Hertz, RTE, National Grid ESO), and the
      Asian-utility queues (TEPCO, KEPCO, TNB, EGAT, CLP)
-     <!-- needs-research: refresh the datacenter-load-forecast
-     and interconnection-queue status at time of use -->
    - *Interconnection queue dynamics* — the multi-year wait
      time in several US ISOs, the "fast-track" and "shovel-
      ready" programs, the queue-reform FERC orders (Order 2023
      and subsequent), and the implications for datacenter
      siting timelines
-     <!-- needs-research: refresh FERC interconnection-queue
-     reform and the ISO-specific queue status at time of use -->
    - *Behind-the-meter and on-site generation* — the natural-
      gas-turbine-at-the-meter trend, the solar-plus-storage
      posture, the fuel-cell option, and the distinct economic
@@ -394,10 +357,6 @@ By the end of this module, you will be able to:
      hyperscaler PPA posture (Microsoft-Constellation, AWS-
      Talen, Google-Kairos and others), the realistic
      deployment horizon against stated capacity needs
-     <!-- needs-research: refresh the nuclear-for-AI deal
-     landscape, the SMR regulatory status at the NRC and
-     equivalents, and the realistic commercial-operation
-     timelines at time of use -->
    - *Grid curtailment and demand response* — the use of
      interruptible load, demand response, and curtailment
      agreements as capacity-access instruments; the implications
@@ -413,10 +372,6 @@ By the end of this module, you will be able to:
       AI-datacenter growth, the direct-liquid-cooling and
       immersion-cooling trajectory, the recycled-water and
       closed-loop options
-      <!-- needs-research: refresh the water-use intensity
-      and regional water-stress intersection at time of use;
-      the UNESCO WWAP and WRI Aqueduct corpora may be
-      relevant -->
     - *Land* — the hyperscaler-campus land-acquisition
       pattern, the industrial-park vs. greenfield posture, the
       community-and-zoning friction surface, and the specific
@@ -427,9 +382,6 @@ By the end of this module, you will be able to:
       from-extreme-weather) applied to the datacenter footprint,
       with the TCFD / IFRS S2 / CSRD disclosure vocabulary
       (reinforced from MOD-406)
-      <!-- needs-research: refresh the climate-disclosure
-      regime (TCFD retirement to IFRS S1/S2 adoption, CSRD
-      implementation) at time of use -->
     - *Reporting and sustainability commitments* — the
       scope 1/2/3 carbon posture, the water-use disclosure,
       the "AI emissions" discipline that has emerged as a
@@ -447,8 +399,6 @@ By the end of this module, you will be able to:
       (PFAS regulatory exposure, fluid-vendor lock-in), the
       operational-complexity delta against air-cooled
       baselines
-      <!-- needs-research: refresh the PFAS regulatory posture
-      for two-phase immersion coolants at time of use -->
     - *Power delivery* — the 48 V DC / 400 V DC trends, the
       medium-voltage rack busbar question, the solid-state
       transformer and advanced power-electronics trajectory
@@ -474,18 +424,12 @@ By the end of this module, you will be able to:
       finite resource), the synthetic-data trajectory, and
       the realistic "next 2-3 pre-training generations"
       capacity profile
-      <!-- needs-research: refresh the pre-training-scaling
-      literature, the data-availability estimates, and the
-      synthetic-data-quality research at time of use -->
     - *Test-time compute scaling* — the O-style reasoning-model
       trajectory (OpenAI o-series, DeepSeek-R1 / V3, Anthropic
       extended-thinking, Google Gemini deep-think, Qwen QwQ,
       and successors), the "spend compute at inference time
       instead of training time" thesis, and the serving-economics
       implications
-      <!-- needs-research: refresh the reasoning-model
-      landscape, the public evaluation of their capability
-      profile, and the serving-cost profile at time of use -->
     - *Mixture-of-experts and sparse-activation* — the trajectory
       from dense through MoE through finer-grained routing, the
       memory-footprint-vs-activation-footprint trade-off, and
@@ -521,9 +465,6 @@ By the end of this module, you will be able to:
       SWE-Lancer, OSWorld, WebArena, GAIA, and successors),
       and the gap between benchmark success and production
       reliability
-      <!-- needs-research: refresh the agentic-benchmark
-      landscape and the realistic frontier-capability profile
-      at time of use -->
     - *Long-horizon-task economics* — the "how many dollars
       and minutes does the agent take to complete a half-day
       knowledge-worker task, and how reliably" question, as
@@ -556,23 +497,17 @@ By the end of this module, you will be able to:
       world-model trajectory, the "video and simulation as
       training signal" thesis, and the implications for
       compute, storage, and dataset infrastructure
-      <!-- needs-research: refresh the world-model research
-      landscape at time of use -->
     - *Robotics and embodied AI* — the vision-language-action
       (VLA) model trajectory (RT-2, OpenVLA, Pi-0,
       Helix, and successors), the humanoid-robot commercial
       trajectory, the industrial-robotics AI integration
       pattern, and the implications for the organization's
       "are we in robotics or not" decision
-      <!-- needs-research: refresh the robotics-and-embodied-
-      AI landscape at time of use -->
     - *Scientific-discovery AI* — AlphaFold / AlphaProteo /
       AlphaMissense / AlphaGenome / AlphaEvolve, the
       materials-and-chemistry AI trajectory, the bioinformatics
       AI stack, and the implications for the organization's
       sector exposure
-      <!-- needs-research: refresh the AI-for-science
-      landscape at time of use -->
     - *Mathematical reasoning and formal verification* —
       the AlphaProof, AlphaGeometry, Lean-and-Rocq-integrated
       systems trajectory, and the implications for software-
