@@ -132,16 +132,11 @@ By the end of this module, you will be able to:
      Profile updates, UK AISI reports, US agency rulemakings
      under state AI laws, and the OECD / G7 / UN processes;
      silence yields the written text to other filers
-     <!-- needs-research: refresh the current list of open AI
-     rulemakings, comment dockets, and international consultation
-     processes at time of use -->
    - Standards bodies encode the technical assumptions production
      systems will be audited against for the next decade — ISO/IEC
      JTC 1/SC 42, MLCommons, Linux Foundation AI & Data,
      OpenSSF, IEEE, OASIS, OWASP; the organization is either in
      the room or has its position written by others
-     <!-- needs-research: refresh the active SC 42 and MLCommons
-     working-group docket at time of use -->
    - The "industry position" a regulator or a journalist
      attributes to an organization is usually taken from the
      most recent public artifact — essay, keynote, filed
@@ -236,11 +231,6 @@ By the end of this module, you will be able to:
    - The *publication mix across platforms* — the organization's
      site vs. the individual's site vs. third-party publications
      vs. academic venues, with the rationale for each
-     <!-- needs-research: refresh the state of major AI-industry
-     publication venues (company blogs, academic venues like NeurIPS
-     / ICML / ICLR / FAccT, industry venues like HBR / IEEE Spectrum
-     / Communications of the ACM / MIT Tech Review, trade press) at
-     time of use -->
    - The *co-authorship* discipline — joint pieces with partners,
      academics, civil-society counterparties, and government,
      and the IP, voice, and clearance implications of each
@@ -259,8 +249,6 @@ By the end of this module, you will be able to:
      open artifacts, and the specific reproducibility standards
      (NeurIPS / ICML / ICLR / FAccT checklists, ACM Transactions
      reproducibility criteria)
-     <!-- needs-research: refresh the state of reproducibility
-     standards at major AI venues at time of use -->
    - The *red-teaming and safety research* disclosure posture —
      the standing position on when internal safety work is
      published, when it is disclosed only to peer labs or to
@@ -300,8 +288,6 @@ By the end of this module, you will be able to:
      Re:Invent, Google Next, Microsoft Ignite, NVIDIA GTC) and
      academic venues (NeurIPS, ICML, ICLR, FAccT, ACL, SOSP,
      OSDI, USENIX)
-     <!-- needs-research: refresh the current state of the AI-
-     industry conference landscape at time of use -->
    - *Keynote preparation* — the three-to-six-month arc from
      invitation to delivery, the drafting pipeline, the rehearsal
      discipline, the recording and transcript-review cadence,
@@ -326,8 +312,6 @@ By the end of this module, you will be able to:
       rationale for each; the distinction between technical
       podcasts (software, systems, research) and executive
       podcasts (business, policy, general-interest)
-      <!-- needs-research: refresh the state of the AI-adjacent
-      podcast landscape at time of use -->
     - *Format-specific preparation* — the Latent Space / No
       Priors / Dwarkesh-style multi-hour technical interview
       (deep technical preparation, standing answers for the
@@ -378,8 +362,6 @@ By the end of this module, you will be able to:
     - *Investor- and analyst-day* presentations — the public
       investor day and the industry-analyst briefing (Gartner,
       Forrester, IDC, 451 Group) as a thought-leadership surface
-      <!-- needs-research: refresh the state of the AI-analyst
-      landscape at time of use -->
 
 ### Standards, Consortia, and Industry-Practice Shaping
 
@@ -391,43 +373,28 @@ By the end of this module, you will be able to:
       (framework for ML systems), and the ongoing working
       groups on transparency, bias, governance, and generative-
       AI-specific standards
-      <!-- needs-research: refresh the ISO/IEC JTC 1/SC 42
-      active work-item list and the status of generative-AI-
-      specific items at time of use -->
     - *NIST* — AI RMF 1.0, the Generative AI Profile, workshops
       and comment dockets, and the AISI-adjacent evaluation
       working groups; the way NIST workshops operate as a semi-
       standards-making forum in practice
-      <!-- needs-research: refresh the NIST AI docket and
-      workshop schedule at time of use -->
     - *MLCommons* — benchmarks (MLPerf Training / Inference /
       HPC / Mobile / Storage / Client), safety (AILuminate),
       medical imaging (MedPerf), and the governance of each
       working group; the way benchmark definitions constrain
       vendor positioning
-      <!-- needs-research: refresh the MLCommons working-group
-      and benchmark landscape at time of use -->
     - *Linux Foundation AI & Data* — the project landscape
       (PyTorch Foundation, ONNX, Open Platform for Enterprise
       AI, OpenLineage, LF AI & Data Trusted AI Committee)
-      <!-- needs-research: refresh the LF AI & Data project
-      landscape at time of use -->
     - *OpenSSF* — software-supply-chain security (SLSA, Sigstore,
       Scorecard) as it applies to model and dataset artifacts
     - *IEEE* — the P7000-series ethics and transparency standards,
       the ongoing LLM-specific working groups
-      <!-- needs-research: refresh the IEEE AI standards docket
-      at time of use -->
     - *OASIS and OWASP* — the LLM security and AI-application
       security standards (OWASP Top 10 for LLM Applications,
       OWASP ML Security Top 10, OASIS CSA-adjacent work)
-      <!-- needs-research: refresh the OWASP and OASIS AI
-      security standards at time of use -->
     - *Partnership on AI, Frontier Model Forum, AI Alliance* —
       industry-governance consortia; their different memberships
       and different leverage profiles
-      <!-- needs-research: refresh the active industry-governance
-      consortium landscape at time of use -->
 
 14. **Running a standards-and-consortia program**
     - *Membership selection* — the standing list of bodies the
@@ -450,16 +417,12 @@ By the end of this module, you will be able to:
       antitrust and competition-law discipline required when
       competitors are in the same working group, and the
       standing counsel presence that keeps it survivable
-      <!-- needs-research: refresh competition-authority guidance
-      on standards-setting coordination at time of use -->
 
 15. **Open-source as industry-practice shaping**
     - Open-source projects as a standards-equivalent — the way
       PyTorch, Kubernetes, Ray, vLLM, Triton, OpenTelemetry, and
       similar projects effectively set industry defaults that
       standards bodies later ratify
-      <!-- needs-research: refresh the state of the AI-
-      infrastructure open-source landscape at time of use -->
     - *TSC and governance participation* — the organization's
       posture on technical steering committees, maintainer
       roles, and foundation-board seats; the time-commitment and
@@ -489,8 +452,6 @@ By the end of this module, you will be able to:
       SEC, OCC, FINRA, EEOC), and international equivalents
       (UK AISI, Ofcom, ICO; Japan METI; Singapore IMDA; Canada
       AIDA process when live)
-      <!-- needs-research: refresh the state of open AI
-      rulemakings and comment dockets at time of use -->
     - *Comment-drafting discipline* — the authorship, legal
       review, policy-review, and executive-sign-off pipeline;
       the standing filing format; the citation discipline; the
@@ -510,24 +471,16 @@ By the end of this module, you will be able to:
       preparation discipline, the pre-testimony briefing with
       staff, the opening-statement drafting, the Q&A rehearsal,
       the post-testimony record
-      <!-- needs-research: refresh the state of active
-      Congressional and parliamentary AI-related hearings at
-      time of use -->
     - *Agency advisory committees* — the FACA regime in the US
       (open meetings, balanced membership, public record), the
       EU AI Board and European AI Office working groups, the
       UK AISI technical advisory engagement, the Japan, Canada,
       and Singapore equivalents
-      <!-- needs-research: refresh the state of AI advisory-
-      committee memberships at time of use -->
     - *Amicus brief* practice — the filing posture in AI-
       industry litigation (training-data cases, Section 230-
       adjacent cases, state AI-law challenges), the "join an
       existing brief" vs. "file independently" decision, the
       legal-and-communications coordination
-      <!-- needs-research: refresh the state of AI-industry
-      litigation where amicus briefs are being filed at time of
-      use -->
     - *Executive meetings with government* — the White House,
       agency, Hill, and international counterpart meetings, and
       the specific record-keeping and clearance discipline that
@@ -537,28 +490,21 @@ By the end of this module, you will be able to:
     - *OECD AI Policy Observatory and AI Principles* process —
       the ongoing policy work, the national-AI-strategy register,
       and the specific venues for industry contribution
-      <!-- needs-research: refresh the OECD AI docket at time
-      of use -->
     - *G7 Hiroshima AI Process* — the code-of-conduct work and
       the industry-contribution venues
-      <!-- needs-research: refresh the G7 Hiroshima AI Process
-      status at time of use -->
-    - *UN AI Advisory Body* and the *Global Digital Compact*
-      process — the specific industry and civil-society
-      engagement mechanisms
-      <!-- needs-research: refresh the UN AI governance process
-      status at time of use -->
+    - *UN AI governance track* — the Global Digital Compact
+      and its successor mechanisms to the former High-Level
+      Advisory Body on AI (the Independent International
+      Scientific Panel on AI and the Global Dialogue on AI
+      Governance) — and the specific industry and civil-society
+      engagement mechanisms attached to each
     - *Council of Europe Framework Convention on AI* — the
       ongoing ratification and implementation work and the
       industry-engagement surface
-      <!-- needs-research: refresh the Council of Europe AI
-      Framework Convention status at time of use -->
     - *AI Safety Summit and AISI network* engagement — the
       Bletchley / Seoul / Paris / successor summits, the AISI
       and AISI-UK coordination, the specific evaluation and
       disclosure commitments the organization has made
-      <!-- needs-research: refresh the AISI network and summit
-      cadence at time of use -->
 
 19. **Standing policy positions as thought leadership**
     - The organization's *standing public positions* on the
