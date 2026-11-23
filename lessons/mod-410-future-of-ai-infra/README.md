@@ -518,28 +518,24 @@ By the end of this module, you will be able to:
 16. **Export control and the chip-wars dynamics**
     - *US export-control trajectory* — the October-2022 /
       October-2023 / March-2024 / January-2025 and subsequent
-      BIS rule progression, the "AI Diffusion" framework and
-      its country tiers, the commerce-licensing posture, and
-      the extraterritorial Foreign Direct Product Rule
-      application
-      <!-- needs-research: refresh the BIS export-control
-      rule set, the country tiering, and the enforcement
-      posture at time of use -->
+      BIS rule progression (noting that the January 2025 "AI
+      Diffusion" country-tier framework was subsequently paused
+      and later rescinded by follow-on BIS interim final rules),
+      the commerce-licensing posture, and the extraterritorial
+      Foreign Direct Product Rule application (current rules at
+      https://www.bis.doc.gov)
     - *China response* — SMIC and YMTC capacity, Huawei Ascend
-      and Kunpeng, Biren and Moore Threads, the "DUV at
-      advanced nodes" path, the domestic HBM and packaging
-      programs, and the realistic frontier-silicon profile
-      inside the controlled perimeter
-      <!-- needs-research: refresh the Chinese domestic
-      semiconductor-and-accelerator program status at time
-      of use -->
+      and Kunpeng, Biren, Moore Threads, Cambricon, CXMT and
+      peers, the "DUV at advanced nodes" path, the domestic HBM
+      and packaging programs, and the realistic frontier-silicon
+      profile inside the controlled perimeter (landscape evolves
+      rapidly; check current analyst coverage at time of use)
     - *Allied coordination* — Japan METI chip-equipment
       controls, Netherlands ASML licensing, Korea semiconductor-
       export posture, EU Dual-Use Regulation, UK export-
       control regime; the multilateral coordination mechanism
-      and its gaps
-      <!-- needs-research: refresh allied export-control
-      coordination at time of use -->
+      and its gaps (coordination posture evolves; refresh via
+      each jurisdiction's official notices at time of use)
     - *Entity listings and sanctions* — the OFAC and BIS
       Entity-List surface, the counterparty-screening discipline
       the organization must run (reinforced from MOD-406 and
@@ -550,33 +546,28 @@ By the end of this module, you will be able to:
     - *US industrial policy* — the CHIPS and Science Act
       allocation, the AI R&D funding programs (DARPA, NSF, DOE,
       NIH), the national-labs-as-AI-infrastructure trajectory
-      (Aurora, Frontier, El Capitan, Venado and successors),
+      (Aurora, Frontier, El Capitan, Venado and successors;
+      see https://www.energy.gov/science/office-science-user-facilities),
       the AI-infrastructure-of-national-significance framing
-      <!-- needs-research: refresh US industrial-policy AI
-      programs at time of use -->
     - *EU industrial policy* — the European Chips Act
       implementation, the AI Factories and Gigafactories
-      program, the Important Projects of Common European
-      Interest (IPCEI) AI projects, the EuroHPC JU AI
-      Supercomputers, the ongoing-and-evolving European
-      Sovereign AI Fund
-      <!-- needs-research: refresh EU AI industrial policy
-      at time of use -->
+      program (see https://www.eurohpc-ju.europa.eu), the
+      Important Projects of Common European Interest (IPCEI)
+      AI projects, the EuroHPC JU AI Supercomputers, the
+      ongoing-and-evolving European Sovereign AI Fund
     - *Asian industrial policy* — Japan Rapidus and METI AI
       compute program, Korea K-Chip Act and AI compute fund,
-      Singapore IMDA National AI Strategy 2.0, Taiwan's
-      TSMC-centric industrial base, India's Semicon Mission
-      and IndiaAI Mission, Malaysia's semiconductor-and-DC
-      corridor
-      <!-- needs-research: refresh Asian AI industrial
-      policy at time of use -->
+      Singapore IMDA AI governance program, Taiwan's TSMC-
+      centric industrial base, India's Semicon Mission (ISM
+      and successor phases) and IndiaAI Mission, Malaysia's
+      semiconductor-and-DC corridor (programs evolve; refresh
+      via each country's industry ministry at time of use)
     - *Middle Eastern and other sovereign programs* — UAE
       (G42, MGX, Core42, Khazna), Saudi Arabia (HUMAIN, PIF
       compute program), Qatar, Kuwait; the sovereign-AI-fund
       posture that has become a substantial AI-infrastructure
-      capital source
-      <!-- needs-research: refresh Middle Eastern sovereign-
-      AI programs at time of use -->
+      capital source (funds and allocations evolve; refresh via
+      each sovereign's official disclosures at time of use)
     - *Decoupling, re-coupling, and friendshoring* — the
       realistic trajectory of supply-chain decoupling against
       the counter-pressure of comparative advantage, with
@@ -588,21 +579,21 @@ By the end of this module, you will be able to:
       analyst-projected capex arc for the major hyperscalers
       (Microsoft, Google, Amazon, Meta, Oracle, Alibaba,
       Tencent, Baidu, ByteDance), the depreciation-schedule
-      and useful-life question, and the implications for
-      the vendor-pricing trajectory
-      <!-- needs-research: refresh the hyperscaler capex
-      landscape and the useful-life accounting posture at
-      time of use -->
+      and useful-life question (server useful-life disclosures
+      now span the roughly 5-to-6-year band, with building
+      useful-life extensions out to 25-plus years emerging as a
+      distinct question), and the implications for the vendor-
+      pricing trajectory
     - *AI-infrastructure project finance* — the emerging
       independent AI-datacenter developer category (CoreWeave,
       Lambda, Crusoe, Nebius, Applied Digital, Vultr, Voltage
       Park, Oracle Cloud Infrastructure for AI), the project-
-      finance and private-credit structures, the "GPU-as-
-      collateral" question, and the implications for the
-      organization's buy-or-lease posture
-      <!-- needs-research: refresh the AI-datacenter-
-      developer landscape and the project-finance posture
-      at time of use -->
+      finance and private-credit structures (with GPU-backed
+      facilities having now been structured at investment-grade
+      ratings, and signed take-or-pay leases rather than the
+      hardware itself serving as the effective collateral
+      backbone), the "GPU-as-collateral" question, and the
+      implications for the organization's buy-or-lease posture
     - *Utility-model economics* — the thesis that AI inference
       compute moves toward a utility-pricing model (per-token,
       per-request, with regulated or quasi-regulated access),
@@ -612,10 +603,9 @@ By the end of this module, you will be able to:
       token price curves, the "cost per intelligence unit"
       vocabulary, the realistic expectation for the planning
       horizon, and the implications for the organization's
-      budget and pricing posture
-      <!-- needs-research: refresh the model-pricing curves
-      and the per-million-token economic-profile landscape
-      at time of use -->
+      budget and pricing posture (curves move quickly; refresh
+      via each vendor's current published rate card at time of
+      use)
     - *Private-market valuation and M&A trajectory* — the
       ongoing AI-company private-market dynamics, the
       strategic-vs-financial acquirer posture, and the
@@ -628,51 +618,48 @@ By the end of this module, you will be able to:
       enforcement posture, the general-purpose-AI-model (GPAI)
       Code of Practice evolution, the national competent-
       authority designation, the standards harmonization
-      (CEN-CENELEC JTC 21) trajectory
-      <!-- needs-research: refresh EU AI Act implementation
-      and the European AI Office enforcement posture at time
-      of use -->
-    - *US federal AI regulation trajectory* — the AISI and
-      NIST evolution, the FTC AI enforcement posture, the
-      sectoral-regulator AI guidance (SEC, FDA, CFPB, OCC,
-      HHS OCR, DOT), the "sectoral + state" US model vs. the
-      counterfactual federal legislation
-      <!-- needs-research: refresh US federal AI regulation
-      trajectory at time of use -->
-    - *US state AI law accretion* — the Colorado AI Act, New
-      York ADMT, California AB 2013 / SB 942 / SB 1047-style
-      proposals, Texas TRAIGA, and the ongoing proliferation;
-      the "patchwork compliance" posture and the realistic
-      expectation for federal preemption
-      <!-- needs-research: refresh US state AI law effective
-      dates and the preemption posture at time of use -->
+      (CEN-CENELEC JTC 21) trajectory (official implementation
+      schedule at https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act)
+    - *US federal AI regulation trajectory* — the AISI / NIST
+      CAISI evolution (see https://www.nist.gov), the FTC AI
+      enforcement posture, the sectoral-regulator AI guidance
+      (SEC, FDA, CFPB, OCC, HHS OCR, DOT), the "sectoral +
+      state" US model vs. the counterfactual federal legislation
+    - *US state AI law accretion* — the Colorado AI Act and
+      its subsequent amendment / replacement cycle, New York
+      ADMT, California AB 2013 / SB 942 / SB 1047-style
+      proposals (noting SB 1047's veto), Texas TRAIGA, and the
+      ongoing proliferation; the "patchwork compliance" posture
+      and the realistic expectation for federal preemption
+      (status and effective dates shift; refresh via each state
+      legislature's official bill-tracking at time of use)
     - *UK, Japan, Korea, Singapore, India, Canada, Australia
       regulatory trajectory* — the UK AISI and "principles-
-      based plus sectoral" posture, Japan's AI Bill and
-      guidelines, Korea's AI Act, Singapore's IMDA AI
-      governance, India's DPDP Act and IndiaAI, Canada's
-      AIDA posture, Australia's AI safety-and-guardrails
-      process
-      <!-- needs-research: refresh the non-EU, non-US AI
-      regulatory landscape at time of use -->
+      based plus sectoral" posture, Japan's AI Promotion Act
+      and related guidelines, Korea's AI Basic Act, Singapore's
+      IMDA AI governance (including the Model AI Governance
+      Framework and the agentic-AI companion), India's DPDP
+      Act and IndiaAI, the successor Canadian AI legislative
+      track following AIDA's lapse with the C-27 prorogation,
+      and Australia's AI safety-and-guardrails process (status
+      shifts; refresh via each regulator at time of use)
     - *The AISI network and frontier-model-evaluation
       regime* — the AISI (US), AISI UK, EU AI Office, and
       counterpart evaluation-and-disclosure obligations;
       the voluntary-to-mandatory transition trajectory
       (reinforced from MOD-405 and MOD-409)
     - *Content provenance and authenticity* — C2PA
-      implementation, watermarking mandates (California AB
-      3211 and successors, EU AI Act Article 50), the realistic
-      trajectory of synthetic-content disclosure
-      <!-- needs-research: refresh content-provenance
-      regulation and C2PA deployment status at time of use -->
+      implementation (see https://c2pa.org), watermarking
+      mandates (California AB 3211 and its successor-bill
+      cycle, EU AI Act Article 50 transparency obligations
+      now in force), the realistic trajectory of synthetic-
+      content disclosure
     - *Liability and litigation trajectory* — the training-data
       litigation (NYT v. OpenAI and successors), the output-
       liability docket, the competition-authority AI docket,
       and the realistic exposure envelope for the planning
-      horizon (reinforced from MOD-407 and MOD-408)
-      <!-- needs-research: refresh the AI-industry litigation
-      docket at time of use -->
+      horizon (reinforced from MOD-407 and MOD-408; refresh via
+      the operative court dockets at time of use)
 
 ### Workforce, Organization, and the Human-Capital Future
 
@@ -680,12 +667,10 @@ By the end of this module, you will be able to:
     - *Software engineering automation* — the trajectory of
       coding agents (Claude Code, Cursor, Windsurf, Cline,
       Aider, Devin, Codex-style agents), the SWE-bench and
-      SWE-Lancer progress, the realistic "what fraction of
-      a senior-engineer workday is automatable in year 1 /
+      SWE-Lancer progress (benchmark results at
+      https://www.swebench.com), the realistic "what fraction
+      of a senior-engineer workday is automatable in year 1 /
       year 2 / year 3" register
-      <!-- needs-research: refresh the coding-agent landscape,
-      SWE-benchmark progress, and real-production-adoption
-      evidence at time of use -->
     - *Research-engineering automation* — the trajectory of
       AI-driven research-engineering tooling (experiment
       design, ablation management, result interpretation,
@@ -712,10 +697,9 @@ By the end of this module, you will be able to:
     - *Researcher mobility* — the ongoing frontier-lab talent
       cycle, the acqui-hire mechanism (reinforced from MOD-408),
       the non-compete and retention-economics discipline, the
-      "a specific team of twelve is the asset" thesis
-      <!-- needs-research: refresh the frontier-researcher
-      mobility landscape and the public cycle of lab transitions
-      at time of use -->
+      "a specific team of twelve is the asset" thesis (flows
+      and transitions shift quickly; refresh via public talent-
+      flow reporting at time of use)
     - *Operator mobility* — the AI-infrastructure operator and
       SRE labor market, the specific scarcity of people who
       have deployed frontier-scale training, the realistic
@@ -979,12 +963,11 @@ mod-410-future-of-ai-infra/
   availability biases that forecasting programs must
   defend against)
 - Published AI-forecast track records — the Metaculus AI
-  benchmark forecasts, the Good Judgment Open AI questions,
-  the Manifold AI-related markets, the Open Philanthropy
-  AI timelines work; read for the specific discipline of
-  how forecasts are stated, graded, and updated
-  <!-- needs-research: refresh the state of AI-forecast
-  track-record platforms at time of use -->
+  benchmark forecasts (https://www.metaculus.com), the Good
+  Judgment Open AI questions, the Manifold AI-related markets,
+  the Open Philanthropy AI timelines work; read for the
+  specific discipline of how forecasts are stated, graded, and
+  updated
 - Carl Sagan — *The Demon-Haunted World* (the enduring
   reference on the discipline of distinguishing claim,
   evidence, and warrant — applied here to AI-trajectory
@@ -1025,29 +1008,26 @@ a structured version.
 - NVIDIA, AMD, Intel, Google, AWS, Microsoft, Meta, Oracle,
   Alibaba most-recent earnings calls and investor-day
   presentations — read for the stated capex, accelerator
-  roadmap, and workload mix
-  <!-- needs-research: refresh the hyperscaler and silicon-
-  vendor earnings-and-investor-day corpus at time of use -->
+  roadmap, and workload mix (each vendor's own investor-
+  relations site is the authoritative source at time of use)
 - TSMC, Samsung Foundry, Intel Foundry most-recent earnings
   calls and technology-symposium presentations — read for
-  the node, packaging, and capacity trajectory
-  <!-- needs-research: refresh the fab-earnings and
-  technology-symposium corpus at time of use -->
-- SemiAnalysis, The Information, Stratechery, Bloomberg
-  Supply Lines, Nikkei Asia semiconductor coverage — read
-  for the current trajectory against the stated roadmap
-  <!-- needs-research: confirm the current reputable
-  semiconductor-analyst corpus at time of use -->
+  the node, packaging, and capacity trajectory (each foundry's
+  own investor-relations site is the authoritative source at
+  time of use)
+- SemiAnalysis (https://semianalysis.com), The Information,
+  Stratechery, Bloomberg Supply Lines, Nikkei Asia
+  semiconductor coverage, and peers — read for the current
+  trajectory against the stated roadmap (reputable-analyst
+  roster evolves; confirm at time of use)
 - ISSCC, Hot Chips, Hot Interconnects, VLSI Symposium
   published proceedings — read for the technical substance
-  behind the vendor marketing
-  <!-- needs-research: refresh the technical-conference
-  proceedings relevant to the planning cycle at time of use -->
+  behind the vendor marketing (each conference's current-cycle
+  proceedings site is the authoritative source at time of use)
 - MLCommons MLPerf Training, Inference, HPC, and Storage
-  result sets — read for the realistic workload performance
-  against vendor claims (reinforced from MOD-404 and MOD-409)
-  <!-- needs-research: refresh the MLPerf result-set
-  landscape at time of use -->
+  result sets (https://mlcommons.org) — read for the realistic
+  workload performance against vendor claims (reinforced from
+  MOD-404 and MOD-409)
 - Clayton Christensen — *The Innovator's Dilemma* and *The
   Innovator's Solution* (reinforced from MOD-404 and MOD-409;
   applied here to the merchant-silicon-vs-custom-silicon
@@ -1114,11 +1094,10 @@ that it requires model-specific optimization. Produce:
 
 **Readings:**
 - EIA *Short-Term Energy Outlook* and *Annual Energy
-  Outlook*, IEA *World Energy Outlook* and *Electricity
-  Outlook* — read for the published datacenter-load
-  forecasts and the broader electricity trajectory
-  <!-- needs-research: refresh the EIA and IEA published
-  forecasts at time of use -->
+  Outlook* (https://www.eia.gov), IEA *World Energy Outlook*
+  and *Electricity* report (https://www.iea.org) — read for
+  the published datacenter-load forecasts and the broader
+  electricity trajectory
 - ERCOT, PJM, MISO, SPP, CAISO, NYISO, ISO-NE published
   interconnection-queue reports and capacity-market
   outlooks; equivalent published materials from TenneT,
