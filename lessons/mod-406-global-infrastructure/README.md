@@ -87,25 +87,18 @@ By the end of this module, you will be able to:
      IBM Cloud, CoreWeave, Lambda, Crusoe, and the GPU-specialist
      clouds — and when they are the correct choice over a
      hyperscaler
-     <!-- needs-research: refresh the current public list of
-     GPU-specialist clouds, their regional presence, and their
-     publicly disclosed hyperscaler relationships at time of use -->
    - Regional sovereign clouds (Alibaba Cloud, Tencent Cloud, Huawei
-     Cloud, Yandex Cloud, OVHcloud, Bleu / S3NS, G42 / Core42,
-     Nutanix sovereign, STC Cloud) and the jurisdictions in which
-     they are the *only* defensible default
-     <!-- needs-research: confirm current status of major
-     EU-sovereign-cloud joint ventures (Bleu, S3NS, Delos) and
-     Gulf / APAC sovereign operators -->
+     Cloud, Yandex Cloud, OVHcloud, Bleu / S3NS / Delos, G42 /
+     Core42, Nutanix sovereign, STC Cloud) and the jurisdictions in
+     which they are the *only* defensible default
 
 2. **The content-delivery and inference-edge map**
    - Cloudflare, Akamai, Fastly, and the hyperscaler CDN overlays
      as inference-edge substrates, not just static-content caches
-   - Latency geography — the undersea-cable map, the Equinix / Digital
-     Realty interconnection map, and the 50-ms-to-population isocurves
-     that decide where inference endpoints actually need to live
-     <!-- needs-research: cite TeleGeography or a current undersea-
-     cable primary source rather than news summaries -->
+   - Latency geography — the TeleGeography submarine-cable map, the
+     Equinix / Digital Realty interconnection map, and the
+     50-ms-to-population isocurves that decide where inference
+     endpoints actually need to live
    - Edge inference on operator networks (AWS Wavelength, Azure
      Private MEC, GCP Distributed Cloud) and when 5G-adjacent
      deployment is architecture vs. marketing
@@ -114,9 +107,6 @@ By the end of this module, you will be able to:
    - AWS GovCloud, Azure Government, Google Cloud Public Sector,
      Oracle Government Cloud and their import of US federal
      authorization tiers (FedRAMP High, IL5, IL6)
-     <!-- needs-research: confirm current FedRAMP High / DoD IL
-     authorizations for each major cloud, which are in process,
-     and which have been added for GenAI services specifically -->
    - EU-sovereign and member-state sovereign offerings — France
      (SecNumCloud, Bleu, S3NS), Germany (Delos), Italy (Polo
      Strategico Nazionale), Spain (SARA), and the "immune from
@@ -137,9 +127,6 @@ By the end of this module, you will be able to:
      Netherlands concentration in EUV, South Korea concentration
      in HBM, and the United States as the regulatory choke point
      via the Entity List and Foreign Direct Product Rule
-     <!-- needs-research: cite the US BIS consolidated rule text
-     and the most recent Federal Register update for AI-related
-     export controls -->
    - HBM supply (SK Hynix, Samsung, Micron) as the actual
      bottleneck for current-generation accelerators, not GPU die
      fabrication alone
@@ -148,11 +135,10 @@ By the end of this module, you will be able to:
    - Bureau of Industry and Security (BIS) AI compute controls —
      performance-threshold and interconnect-bandwidth metrics,
      Entity List designations, Validated End User framework,
-     and the Diffusion / AI-chips rule structure
-     <!-- needs-research: lock citations to the Federal Register
-     final rule rather than press releases; AI-chip rules update
-     at a cadence of several per year and specific thresholds
-     shift -->
+     and the evolving advanced-computing / AI-chips rule structure
+     (the Biden-era AI Diffusion Rule was formally rescinded in
+     November 2026 and the control regime continues to be revised
+     through interim final rules)
    - Extraterritorial reach via the Foreign Direct Product Rule —
      why a non-US foundry still cannot ship to a listed party if
      US design IP or US-origin tools are involved
@@ -169,23 +155,19 @@ By the end of this module, you will be able to:
      with purchased silicon
    - The multi-year foundation-model-vendor compute commitment as
      a de facto supply-chain play (hyperscaler ↔ model-lab equity
-     and compute-credit arrangements)
-     <!-- needs-research: list current major hyperscaler / frontier-
-     lab compute partnerships (Microsoft-OpenAI, Amazon-Anthropic,
-     Google-Anthropic, Oracle-OpenAI, etc.) with publicly disclosed
-     scale and duration where available -->
+     and compute-credit arrangements — Microsoft-OpenAI,
+     Amazon-Anthropic, Google-Anthropic, Oracle-OpenAI and
+     successor deals, publicly disclosed in the tens-to-hundreds
+     of billions of dollars range)
    - Sovereign compute programs (France INRIA / Jean Zay, UK Isambard-AI
      and AI Research Resource, EuroHPC JUPITER / LUMI / Leonardo,
-     US NAIRR pilot, Japan ABCI, UAE Falcon / G42, India AI Mission
+     US NAIRR, Japan ABCI, UAE Falcon / G42, India AI Mission
      compute) as subsidized access under conditions
-     <!-- needs-research: refresh the current list of sovereign /
-     publicly funded AI compute programs, their stated capacity,
-     and their access-eligibility rules -->
    - The "build the fab" option (TSMC Arizona, Samsung Texas,
      Intel Ohio, TSMC Dresden, Rapidus Hokkaido) as a 2030-horizon
-     bet, not a 2026-horizon supply fix
-     <!-- needs-research: track current status of advanced-node
-     fab construction and schedule slippage -->
+     bet, not a 2026-horizon supply fix — Intel Ohio has slipped
+     to 2030, Samsung Taylor to 2028, and TSMC's second Arizona
+     fab deferred past its original target
 
 ### Data Sovereignty and Cross-Border Flows
 
@@ -203,48 +185,42 @@ By the end of this module, you will be able to:
      script after hours
 
 8. **GDPR, Schrems, and the EU transfer regime**
-   - GDPR Chapter V transfer mechanisms — adequacy decisions,
-     Standard Contractual Clauses, Binding Corporate Rules,
-     derogations — and their post-*Schrems II* evidence burden
-     <!-- needs-research: cite the current EU-US Data Privacy
-     Framework status, any pending CJEU challenge, and the EDPB
-     guidance on supplementary measures -->
+   - GDPR Chapter V transfer mechanisms — adequacy decisions
+     (including the EU-US Data Privacy Framework, in force but
+     under pending CJEU challenge), Standard Contractual Clauses,
+     Binding Corporate Rules, derogations — and their
+     post-*Schrems II* evidence burden under EDPB Recommendations
+     01/2020 on supplementary measures
    - The Data Protection Impact Assessment (DPIA) and Transfer
      Impact Assessment (TIA) as the enterprise-level residency
      audit artifacts
-   - Interaction with the EU AI Act — training-data lawfulness,
-     high-risk-system data governance (Article 10), and
-     cross-system data-flow implications
-     <!-- needs-research: verify the final EU AI Act citation
-     (Regulation (EU) 2024/1689) and the application-timeline
-     table for prohibited, GPAI, high-risk, and transparency
-     obligations -->
+   - Interaction with the EU AI Act (Regulation (EU) 2024/1689) —
+     training-data lawfulness, high-risk-system data governance
+     (Article 10), and cross-system data-flow implications
 
 9. **Non-EU data regimes that constrain training and inference**
    - UK Data Protection Act and UK GDPR, and the divergence watch
    - China's Personal Information Protection Law (PIPL), Data
-     Security Law, Cybersecurity Law, and the generative-AI-
-     specific *Interim Measures for the Management of Generative
-     Artificial Intelligence Services*
-     <!-- needs-research: cite the CAC's current Generative AI
-     measures and any filing / security-assessment regime
-     applicable to foreign providers -->
-   - India's Digital Personal Data Protection Act (2023), Brazil's
-     LGPD, South Korea's PIPA, Japan's APPI, Australia's Privacy
-     Act reform, and the India / Russia / Vietnam / Indonesia
-     data-localization overlays
-     <!-- needs-research: confirm current DPDP Rules status in
-     India and any sector-specific localization carve-outs -->
+     Security Law, Cybersecurity Law, and the CAC's
+     generative-AI-specific *Interim Measures for the Management
+     of Generative Artificial Intelligence Services* (effective
+     15 August 2023), with filing and security-assessment
+     obligations for public-facing services
+   - India's Digital Personal Data Protection Act (2023) and its
+     implementing Rules (notified November 2025, substantive
+     obligations phasing in through 2027), Brazil's LGPD, South
+     Korea's PIPA, Japan's APPI, Australia's Privacy Act reform,
+     and the India / Russia / Vietnam / Indonesia data-localization
+     overlays
    - US sectoral rules that dominate residency even without a
      federal privacy law — HIPAA for health, GLBA for finance,
      FERPA for education, ITAR / EAR for defense and dual-use
    - Executive-order and state-level overlays that affect AI
      data flows: US Executive Order on bulk data to countries
-     of concern, California CCPA/CPRA, Colorado AI Act, New York
-     Local Law 144, Illinois BIPA
-     <!-- needs-research: refresh the state-AI-law list; this
-     legislation is moving faster than any other jurisdictional
-     overlay -->
+     of concern, California CCPA/CPRA, Colorado AI Act (as
+     revised by SB 189), Texas TRAIGA, New York Local Law 144,
+     Illinois BIPA — a fast-moving layer that must be refreshed
+     before any cross-jurisdictional architecture decision
 
 10. **The output-side residency problem**
     - Membership-inference, training-data extraction, and the
@@ -269,11 +245,11 @@ By the end of this module, you will be able to:
       and sectoral), general-purpose AI model obligations
       (Articles 51-55), transparency obligations (Article 50),
       Fundamental Rights Impact Assessment
-    - Application-date table — prohibitions, GPAI obligations, and
-      high-risk timelines as the planning calendar for compliance
-      investment
-      <!-- needs-research: confirm current application-date table
-      and any delegated / implementing acts published since -->
+    - Application-date table — prohibitions (from 2 February 2025),
+      GPAI obligations (from 2 August 2025), general applicability
+      (2 August 2026), and high-risk timelines (Annex III high-risk
+      deferred to 2 December 2027 under the Digital Omnibus on AI)
+      as the planning calendar for compliance investment
     - Codes of Practice, harmonised standards, and the AI Office /
       AI Board governance stack
     - Fines — percentage-of-global-turnover tiers, which must be
@@ -281,23 +257,23 @@ By the end of this module, you will be able to:
 
 12. **US, UK, and allied frameworks**
     - US federal: NIST AI RMF 1.0 and the Generative AI Profile
-      (NIST AI 600-1), OMB M-24-10 and M-25-xx guidance for
-      federal agencies, sector regulators (FTC, SEC, CFPB,
-      EEOC, HHS, FDA) and their enforcement posture
-      <!-- needs-research: refresh the current OMB AI-use guidance
-      memoranda for federal agencies and contractors -->
-    - US state activity: Colorado AI Act, Utah AI amendments,
-      California SB-xxx series, Texas TRAIGA, Illinois, New York
-      <!-- needs-research: assemble a current state-AI-law
-      inventory; 50-state compliance maps change quarterly -->
+      (NIST AI 600-1), OMB M-25-21 (agency AI use, rescinding and
+      replacing M-24-10) and M-25-22 (AI acquisition), sector
+      regulators (FTC, SEC, CFPB, EEOC, HHS, FDA) and their
+      enforcement posture
+    - US state activity: Texas TRAIGA (effective January 2026),
+      Colorado AI Act as revised by SB 189 (effective January 2027),
+      California SB 53 and AB 2013 (effective January 2026) and
+      the broader CAITA series, Utah AI amendments, Illinois, New
+      York — a 50-state map that materially shifts each quarter
     - UK pro-innovation framework, the AI Safety Institute, and
       the regulator-led sectoral approach
-    - Canada AIDA, Australia AI safety standards, Singapore Model AI
-      Governance Framework and AI Verify, Japan AI Promotion and
-      Guidelines, South Korea AI Basic Act
-      <!-- needs-research: AI legislation in Canada, Australia,
-      and South Korea is at varied stages; confirm current
-      enactment status before citing as live law -->
+    - Canada's proposed AIDA (Bill C-27, lapsed on prorogation in
+      January 2025, with the "AI for All" strategy launched in its
+      place), Australia AI safety standards (with a comprehensive
+      AI Act anticipated from 2027), Singapore Model AI Governance
+      Framework and AI Verify, Japan AI Promotion and Guidelines,
+      South Korea AI Basic Act (effective 22 January 2026)
 
 13. **China and jurisdictions with structurally different regimes**
     - CAC *Interim Measures for the Management of Generative
@@ -314,13 +290,11 @@ By the end of this module, you will be able to:
       flavor and acceptable mitigations
 
 14. **International standards as the shared vocabulary**
-    - ISO/IEC 42001 (AI management system), ISO/IEC 23894 (AI risk
-      management), ISO/IEC 5338 (AI lifecycle), ISO/IEC 42005
-      (AI impact assessment), ISO/IEC 5259 series (data quality
-      for AI)
-      <!-- needs-research: confirm the current publication status
-      of each standard; the 5259 series and 42005 are still at
-      various WD/CD/FDIS stages depending on part -->
+    - ISO/IEC 42001:2023 (AI management system), ISO/IEC 23894:2023
+      (AI risk management), ISO/IEC 5338:2023 (AI lifecycle),
+      ISO/IEC 42005:2025 (AI impact assessment), and the
+      ISO/IEC 5259 series (data quality for AI, with parts
+      published on a rolling basis)
     - Interaction with the EU AI Act's harmonised-standards
       pathway (CEN-CENELEC JTC 21) and the US accreditation
       ecosystem
@@ -333,10 +307,10 @@ By the end of this module, you will be able to:
 15. **Energy, water, and grid as first-class design constraints**
     - Training-cluster site selection — power availability on the
       1-GW-to-1-TWh/year envelope, interconnection queue timelines,
-      and power-purchase-agreement (PPA) design
-      <!-- needs-research: cite current IEA / EPRI / LBNL data-
-      center energy projections and specific regional-grid
-      constraint reports (ERCOT, PJM, Ireland CRU, Virginia) -->
+      and power-purchase-agreement (PPA) design, against IEA
+      projections that global data-center electricity demand will
+      roughly double by 2030 with AI driving the majority of the
+      increase
     - Water for evaporative cooling — the hot-humid/hot-dry
       trade-off, closed-loop and air-cooled alternatives, and the
       permits that make or break a greenfield site
@@ -349,19 +323,19 @@ By the end of this module, you will be able to:
 16. **Site-selection geography**
     - US clusters — Northern Virginia, Columbus, Phoenix, Dallas,
       Reno, Iowa, Oregon — and their 2026-era constraints (grid,
-      transformer lead times, water, community opposition)
-      <!-- needs-research: verify current data-center moratoriums
-      or restrictions in Loudoun County VA, Santa Clara CA, and
-      Ireland -->
+      transformer lead times, water, community opposition,
+      including the 12-month data-center moratorium adopted in
+      Loudoun County in September 2026)
     - EMEA clusters — Ireland, Netherlands, Germany (Frankfurt),
       Nordics (Stockholm, Oslo, Helsinki) for renewable-rich
       operation, Spain, Portugal, Italy for south-Europe anchor
     - APAC clusters — Singapore (constrained by moratorium
       history), Sydney, Tokyo, Osaka, Mumbai, Jakarta, Seoul
-    - Emerging clusters — Saudi Arabia (NEOM), UAE (Abu Dhabi),
-      Malaysia (Johor), and sovereign-compute siting
-      <!-- needs-research: refresh the Johor / Singapore spillover
-      cluster story and current Saudi NEOM AI-compute commitments -->
+    - Emerging clusters — Saudi Arabia (HUMAIN's multi-GW
+      build-out and NEOM), UAE (Abu Dhabi, including Stargate UAE),
+      Malaysia (Johor as the primary Singapore spillover corridor,
+      with multi-GW of announced capacity), and sovereign-compute
+      siting
     - Latency geography that forces inference siting independent
       of training siting
 
@@ -387,10 +361,10 @@ By the end of this module, you will be able to:
       Energy exascale programs (Frontier, Aurora, El Capitan),
       and the AI Safety Institute network
     - EU — EuroHPC (JUPITER, LUMI, Leonardo, MareNostrum 5),
-      AI Factories initiative, AI Gigafactories pipeline
-      <!-- needs-research: confirm current AI Factory and
-      Gigafactory site selections, funding announcements, and
-      governance arrangements -->
+      AI Factories initiative, and the AI Gigafactories tender
+      launched in July 2026 (up to seven sites, targeted combined
+      EU-plus-private investment of over €30 billion, selection
+      expected in early 2027)
     - UK — AI Research Resource, Isambard-AI, Dawn, and the AI
       Safety Institute as an anchor tenant
     - France — Jean Zay, CMA-CGM/Mistral, "Choose France" and
@@ -399,12 +373,12 @@ By the end of this module, you will be able to:
       the EuroHPC umbrella
     - Japan ABCI, South Korea KISTI / NIA, Singapore SingHealth
       and AI Singapore
-    - UAE G42 / Core42 / Falcon, Saudi HUMAIN, India AI Mission
-      and IndiaAI compute marketplace, Indonesia, Vietnam
-      sovereign programs
-      <!-- needs-research: refresh G42-Microsoft-US-technology-
-      transfer arrangement, HUMAIN launch, and India AI Mission
-      compute-tender status at time of use -->
+    - UAE G42 / Core42 / Falcon (with the 2024 Microsoft
+      investment and associated US-coordinated technology-stack
+      alignment), Saudi HUMAIN (launched 2024 with announced
+      multi-GW compute commitments), India AI Mission and the
+      IndiaAI compute marketplace (expanded in 2026), Indonesia
+      and Vietnam sovereign programs
     - China — the national AI compute network and the provincial
       compute alliances; "East Data West Compute" (东数西算)
       interconnect strategy as a case study in national
@@ -475,11 +449,10 @@ By the end of this module, you will be able to:
       in three different markets
     - Local-presence requirements — in-country Data Protection
       Officer, in-country legal representative (EU AI Act Article
-      22 for providers established outside the Union), in-country
-      incident-response team
-      <!-- needs-research: confirm Article 22 authorised-
-      representative requirements and the parallel GDPR Article
-      27 appointment -->
+      22 authorised representative for non-EU providers of
+      high-risk AI systems, alongside the parallel GDPR Article
+      27 representative for non-EU controllers and processors
+      caught by Article 3(2)), in-country incident-response team
     - Regional product variance — same model, different operating
       envelope by market — as a governance artifact, not an
       implementation detail
