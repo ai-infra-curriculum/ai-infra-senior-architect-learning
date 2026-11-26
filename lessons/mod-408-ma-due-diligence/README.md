@@ -112,16 +112,16 @@ By the end of this module, you will be able to:
    - The regulatory perimeter travels with the asset in ways a
      SaaS acquisition historically did not — EU AI Act role
      obligations, GDPR-era data liability, FTC algorithmic-
-     disgorgement precedent, sectoral regulator expectations
-     <!-- needs-research: refresh the FTC's current posture on
-     algorithmic-disgorgement and related remedy orders at time
-     of use (Everalbum, Rite Aid, WW/Kurbo and successors) -->
+     disgorgement precedent (Everalbum/Paravision 2021, WW/Kurbo
+     2022, Amazon Alexa and Ring 2023, Rite Aid 2023, Avast 2024),
+     sectoral regulator expectations
    - The competition-authority surface is active — the EC, CMA,
      DOJ, FTC, and BKartA have each opened AI-specific inquiries
-     into partnerships and investments; an M&A transaction is a
-     higher-friction version of the same scrutiny
-     <!-- needs-research: refresh current competition-authority
-     reviews of AI M&A and investment transactions at time of use -->
+     into partnerships and investments (CMA's Microsoft-OpenAI
+     and Amazon-Anthropic reviews, the FTC's 6(b) staff report on
+     AI cloud partnerships, and BKartA's Microsoft-Inflection
+     review); an M&A transaction is a higher-friction version of
+     the same scrutiny
    - The value is often in a small number of people, and those
      people have options; a diligence that does not price
      retention is incomplete
@@ -135,10 +135,6 @@ By the end of this module, you will be able to:
      emphasis on individual retention economics, non-compete and
      non-solicit enforceability, invention-assignment chains, and
      the specific projects the team is bringing out the door
-     <!-- needs-research: refresh the state of non-compete
-     enforceability across US states and major non-US
-     jurisdictions at time of use (the FTC non-compete rulemaking,
-     California-style state bans, and the UK / EU landscape) -->
    - **Carve-out acquisition** — the target is a subset of a
      larger seller; diligence emphasis on separation feasibility,
      the TSA scope the seller will support, and the IP and data
@@ -202,10 +198,6 @@ By the end of this module, you will be able to:
      license posture (Apache-2.0 / Llama-license /
      Qwen-license / Mistral-license / DeepSeek-license / BSL
      patterns), third-party dependency hygiene
-     <!-- needs-research: refresh the state of model-weight
-     licensing (OSI OSAID effort, the Llama Community License
-     generation, source-available vs. open-source distinctions)
-     at time of use -->
    - *Regulatory and legal* — EU AI Act provider / deployer
      role, GDPR controller / processor posture, sectoral
      regulator exposure, US state AI law exposure, pending
@@ -216,9 +208,6 @@ By the end of this module, you will be able to:
      penetration-test history, incident history, responsible-
      disclosure track record, operator-access controls,
      subprocessor transparency
-     <!-- needs-research: confirm current ISO/IEC 42001 certified
-     AI companies at time of use; the certified population is
-     growing but still small -->
 
 5. **Dimension interactions — the "the asset is clean along five axes but fatal along the sixth" failure mode**
    - A target with excellent model evaluations and a clean
@@ -300,11 +289,6 @@ By the end of this module, you will be able to:
      Directive Article 4 TDM-opt-out mechanics, the UK TDM
      exception, Japan Article 30-4, and the state of US fair-use
      litigation
-     <!-- needs-research: refresh pending and decided AI
-     training-data litigation at time of use (NYT v. OpenAI,
-     Getty v. Stability, Andersen v. Stability, GitHub Copilot
-     class actions, music-label suits, and any settlements or
-     dispositive rulings) -->
    - *Content-license deals* — the licensed-corpus vendors the
      target depends on, the assignability of those agreements
      on change of control, and the renewal cost profile
@@ -321,9 +305,6 @@ By the end of this module, you will be able to:
      inference data physically sits, what cross-border transfer
      mechanisms are in place (SCCs, Adequacy, DPF and successor
      frameworks), and the operator-access reality
-     <!-- needs-research: refresh the state of EU-US Data
-     Privacy Framework, UK IDTA / UK Extension, and any
-     successor adequacy mechanisms at time of use -->
 
 9. **Derivative-model and output-rights diligence**
    - When the target's production models are fine-tuned from a
@@ -349,8 +330,6 @@ By the end of this module, you will be able to:
       Apache-2.0 weights releases, BSL variants, OpenRAIL
       descendants — and the way each constrains redistribution,
       hosted-service offering, and derivative-model training
-      <!-- needs-research: refresh the model-weight license
-      landscape and the OSI OSAID state at time of use -->
     - Dependency hygiene — SBOM presence and freshness for
       training and inference, known-vulnerability posture, the
       organization's response-time to published advisories
@@ -365,9 +344,6 @@ By the end of this module, you will be able to:
     - Hyperscaler commitment profile — EDP / MACC / CUD
       structure, remaining term, remaining commit, double-
       commit risk after acquirer absorption
-      <!-- needs-research: refresh current hyperscaler
-      enterprise-agreement commit-restructuring practices on
-      change of control at time of use -->
     - Specialist-cloud and GPU-cloud contracts — term, exit
       posture, and the specific reservation / co-location
       commitments that may or may not transfer
@@ -412,9 +388,8 @@ By the end of this module, you will be able to:
     - Non-compete and non-solicit posture — what is enforceable
       in each relevant jurisdiction, and the specific countries
       and US states where the non-compete is effectively
-      unavailable
-      <!-- needs-research: refresh the state of non-compete
-      enforceability in major jurisdictions at time of use -->
+      unavailable (California, North Dakota, Oklahoma, Minnesota,
+      and — effective June 30, 2027 — Washington)
     - Invention-assignment and work-for-hire chains — the
       cleanliness of IP attribution from individual contributor
       to corporate entity, including the open-source
@@ -434,9 +409,8 @@ By the end of this module, you will be able to:
       deployer role on each production system, the General-
       Purpose AI provider classification (if applicable), and
       the specific obligations the acquirer assumes on close
-      <!-- needs-research: confirm the current application-date
-      table and any delegated / implementing acts affecting the
-      Article 25 role allocation at time of use -->
+      (Article 25 entered into application on 2 August 2026,
+      alongside the broader high-risk and governance block)
     - GDPR Article 82 joint-controller exposure — the target's
       historic data-controller decisions and the open claims
       they create
@@ -445,13 +419,13 @@ By the end of this module, you will be able to:
       DORA), healthcare (HIPAA, FDA SaMD, EMA / MDR), critical
       infrastructure (CISA, NIS2, sector-specific regulators)
       — as applicable to the target's workloads
-    - US state AI law exposure — Colorado AI Act, California
-      ADMT regulations, NYC Local Law 144, Illinois BIPA
+    - US state AI law exposure — the Colorado AI Act (revised
+      by SB 26-189), the Texas Responsible AI Governance Act
+      (effective 1 Jan 2026), California CPPA ADMT regulations
+      (effective 1 Jan 2026), NYC Local Law 144, Illinois BIPA
       analogues, and the growing set of state employment /
-      insurance / lending AI laws, several with private rights
-      of action
-      <!-- needs-research: refresh US state AI law effective
-      dates and private-right-of-action scope at time of use -->
+      insurance / lending AI laws (with BIPA remaining the
+      principal private-right-of-action risk in this set)
     - Export-control and sanctions exposure — the target's
       customer footprint against OFAC designations, the EAR
       Foreign Direct Product Rule reach, UK sanctions, EU
@@ -472,10 +446,10 @@ By the end of this module, you will be able to:
     - Consent-decree and settlement footprint — the forward
       obligations the acquirer assumes by taking on the asset,
       including any outstanding algorithmic-disgorgement or
-      model-deletion obligations
-      <!-- needs-research: refresh the catalog of AI-adjacent
-      consent decrees and settlements with ongoing compliance
-      obligations at time of use -->
+      model-deletion obligations (Rite Aid's five-year facial-
+      recognition ban, Amazon Alexa's COPPA order, Ring's twenty-
+      year privacy and security program, and Avast's data- and
+      model-destruction obligations as representative examples)
 
 16. **Trust-and-safety and incident-history diligence**
     - Incident register — the target's own record of T&S
@@ -530,9 +504,6 @@ By the end of this module, you will be able to:
       (AI-specific IP litigation, open regulatory inquiries,
       training-data litigation), and the way the exclusion set
       drives the escrow sizing
-      <!-- needs-research: refresh current R&W insurance market
-      posture on AI-asset coverage and standard AI-specific
-      exclusions at time of use -->
     - *Escrow sizing* — the standard-market escrow against the
       standing-position escrow the acquirer needs for AI-asset-
       specific risks
@@ -581,10 +552,10 @@ By the end of this module, you will be able to:
       HSR, EC merger control, CMA merger control, CFIUS,
       and the equivalents in Japan, Korea, Germany, and the
       increasing number of jurisdictions with AI-sensitive
-      review regimes
-      <!-- needs-research: refresh the state of AI-sensitive
-      foreign-investment-review regimes and any AI-specific
-      merger-notification thresholds at time of use -->
+      review regimes (the UK NSIA 2021, which names AI as a
+      mandatory-notification sector, and the revised EU FDI
+      Regulation agreed in December 2025 are the current
+      reference points)
 
 ### Integration, Separation, and Post-Close Execution
 
@@ -673,10 +644,11 @@ By the end of this module, you will be able to:
       infrastructure, data, model, talent, and commercial axes
     - *Transition-services agreement* (TSA) scope — the
       functions the seller continues to provide post-close, at
-      what rate, for what term, with what sunset
-      <!-- needs-research: refresh the AI-era TSA norms on
-      model-inference services, evaluation infrastructure,
-      and MLOps tooling at time of use -->
+      what rate, for what term, with what sunset (AI-era TSAs
+      typically extend beyond the classical finance / HR / IT
+      scope to cover model-inference continuity, evaluation
+      infrastructure, and MLOps tooling, though no canonical
+      published norms exist)
     - Shared-infrastructure separation — the cost and timeline
       to carve a joint tenancy, a shared vector store, or a
       shared evaluation harness into two
@@ -791,24 +763,23 @@ mod-408-ma-due-diligence/
 - Publicly disclosed AI acquisitions and their primary-source
   filings — press releases, 8-Ks, 10-Qs, and merger-filing
   narratives from recent transactions in the AI stack
-  <!-- needs-research: assemble a current short list of
-  AI-sector M&A transactions and their primary-source filings
-  at time of use -->
+  (Databricks-MosaicML, Microsoft-Inflection, Google-Character.AI,
+  Amazon-Adept, and Nvidia's Run:ai and Gretel acquisitions are
+  canonical reference points)
 - Publicly disclosed strategic-alliance-to-acquisition paths
   (Microsoft-OpenAI structure and the public commentary on its
-  "quasi-acquisition" character; Amazon-Anthropic;
-  Google-Anthropic) as reference patterns
-  <!-- needs-research: refresh current public disclosures on the
-  major AI-alliance structures and any regulator findings on
-  their character at time of use -->
+  "quasi-acquisition" character — including the CMA's March 2025
+  conclusion that Microsoft exerts "material influence" but not
+  control over OpenAI; Amazon-Anthropic, cleared by the CMA in
+  September 2024; Google-Anthropic) as reference patterns
 - Anu Bradford — *Digital Empires* (background on the
   regulatory and competitive frame in which AI M&A now
   operates; reinforced from MOD-407)
 - Published competition-authority reports on AI-sector
-  partnerships and acquisitions (EC Phase I decisions, CMA
-  phase-1 / phase-2 narratives, FTC 6(b) studies)
-  <!-- needs-research: refresh current competition-authority
-  reports on AI-industry structure at time of use -->
+  partnerships and acquisitions (the CMA's AI Foundation Models
+  Update Paper of April 2024, the FTC's January 2025 6(b) staff
+  report on AI-cloud partnerships, EC Phase I decisions, and CMA
+  phase-1 / phase-2 narratives)
 
 **Exercise:** Classify three recent AI transactions on the deal-
 shape spectrum, state the diligence emphasis each would require,
@@ -848,33 +819,29 @@ most plausibly turned. A one-page memo to the CEO. See
   MOD-407), with emphasis on data-and-model supply-chain risk
   categories applied in diligence
 - ISO/IEC 42001 — *AI management system* clauses on data,
-  model, and supplier management, read as a diligence checklist
-  <!-- needs-research: confirm specific clause citations and
-  any published implementation guides at time of use -->
-- NIST SP 800-161 (Cybersecurity Supply Chain Risk
-  Management) applied to AI-asset diligence
-  <!-- needs-research: confirm current revision and any
-  AI-specific supply-chain guidance from NIST or NIAC at time
-  of use -->
+  model, and supplier management (Clauses 6-10 of the main text
+  and Annex A controls on data, lifecycle, use information, and
+  third-party relationships), read as a diligence checklist
+- NIST SP 800-161 Rev. 1 (Cybersecurity Supply Chain Risk
+  Management, as updated November 2024) applied to AI-asset
+  diligence, read alongside NIST AI 600-1 as the AI-specific
+  supply-chain companion
 - Primary-source model cards, system cards, training-data
   transparency summaries, and usage policies from the major
   foundation-model vendors, as the public floor for the
   diligence evidence a target should be able to produce on its
   own models
-- Primary-source training-data litigation filings and dispositive
-  rulings
-  <!-- needs-research: refresh pending and decided AI
-  training-data litigation at time of use (NYT v. OpenAI,
-  Getty v. Stability, Andersen v. Stability, GitHub Copilot
-  class actions, music-label suits) and the way the current
-  state shifts the diligence bar -->
+- Primary-source training-data litigation filings and
+  dispositive rulings (NYT v. OpenAI, Getty v. Stability AI,
+  Andersen v. Stability AI, Doe v. GitHub, and the music-label
+  suits against Anthropic, Suno, and Udio as reference points)
 - Model-weight license primary sources — Llama Community
   License, Qwen License, Mistral AI License, DeepSeek License,
   Apache-2.0 model-weight releases, BSL variants, OpenRAIL
   descendants — read against the target's own model-license
-  posture
-  <!-- needs-research: refresh model-weight license landscape
-  and OSI OSAID state at time of use -->
+  posture, and against OSI's Open Source AI Definition (OSAID
+  1.0, published October 2024) as the reference for whether
+  a given release is genuinely open source or merely open-weight
 
 **Case Study:** A large enterprise software vendor is evaluating
 the acquisition of an AI-native startup whose production models
@@ -926,21 +893,17 @@ covering:
 **Readings:**
 - Primary-source hyperscaler enterprise-agreement terms and
   publicly posted standard-contract language on change of
-  control and assignment
-  <!-- needs-research: refresh current hyperscaler
-  enterprise-agreement standard terms on change of control at
-  time of use -->
+  control and assignment (the AWS Customer Agreement, Microsoft
+  Customer Agreement / EA, and Google Cloud Platform Terms of
+  Service as the canonical references)
 - Primary-source commercial-contract templates for AI-era
   change-of-control mechanics (the common variations of
   "consent required," "notice only," "deemed consent after N
   days" clauses)
 - Published analyses of AI-sector retention economics, non-
   compete reform, and talent-market dynamics (CSET, Stanford
-  HAI, Tortoise AI Index, published academic salary and
-  mobility studies)
-  <!-- needs-research: refresh the current literature on AI
-  researcher retention economics and non-compete enforceability
-  at time of use -->
+  HAI AI Index, Tortoise AI Index, published academic salary
+  and mobility studies)
 - The organization's own standing retention-economics data,
   as the benchmark against which target retention economics
   will be read
