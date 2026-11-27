@@ -531,8 +531,6 @@ By the end of this module, you will be able to:
       Discord, Stack Overflow, Reddit, and specialist-community
       surfaces, with the standing presence and the engagement
       discipline each requires
-      <!-- needs-research: refresh the state of the AI developer-
-      community landscape at time of use -->
     - *Hackathon and competition* sponsorship — the strategic
       and reputational calculus of sponsoring a developer
       competition, the data-and-prize-rights discipline, the
@@ -578,8 +576,6 @@ By the end of this module, you will be able to:
       processes beyond its home jurisdiction — EU, UK, Japan,
       Korea, India, Singapore, Canada, Australia, UAE, Saudi
       Arabia, Brazil, and others with active strategies
-      <!-- needs-research: refresh the state of major national
-      AI strategies at time of use -->
     - *Sovereign-AI partnership* implications for thought
       leadership (reinforced from MOD-406 and MOD-407) — the
       public statements, joint papers, and standing positions
@@ -773,9 +769,6 @@ mod-409-thought-leadership/
   Andrej Karpathy, Eugene Yan), and the foundation-model-lab
   research-blog corpus (Anthropic, OpenAI, Google DeepMind,
   Meta AI, Microsoft AI, Mistral)
-  <!-- needs-research: refresh the state of the senior-executive
-  and technical-executive essay and research-blog landscape at
-  time of use -->
 - Anu Bradford — *Digital Empires* (reinforced from MOD-407 and
   MOD-408; the regulatory and competitive frame in which AI
   thought leadership now operates)
@@ -826,21 +819,15 @@ gaps between current state and the operating model above. See
   essays, Andrej Karpathy's blog, Eugene Yan's essays, Jason
   Wei's blog, Horace He's writing — read for voice, structural
   choice, and clearance-signal
-  <!-- needs-research: refresh the state of the senior-researcher
-  and executive essay landscape at time of use -->
 - Foundation-model-lab research-blog corpus — Anthropic
   research posts, OpenAI research-blog, Google DeepMind
   research, Meta FAIR / GenAI research, Microsoft Research
   AI, Mistral and other open-weights-vendor blogs — read for
   editorial discipline, clearance-signal, and the way corporate
   research writing differs from individual essay writing
-  <!-- needs-research: refresh the state of the foundation-
-  model-lab research-blog landscape at time of use -->
 - ACM, IEEE, NeurIPS, ICML, ICLR, FAccT, ACL reproducibility
   and ethics-review guidelines, as the baseline the
   organization's research-publication discipline aspires to
-  <!-- needs-research: refresh the reproducibility and ethics-
-  review guidelines at major AI venues at time of use -->
 
 **Case Study:** A senior researcher at your organization has
 drafted a long essay for personal publication arguing that the
@@ -909,22 +896,16 @@ pages) covering:
   Build and AWS Re:Invent keynote archives — read for
   structural choice, demonstration discipline, and standing-
   position signal
-  <!-- needs-research: refresh the state of the senior-AI
-  keynote-and-conference-talk corpus at time of use -->
 - Long-form podcast archive — Latent Space, No Priors, Dwarkesh
   Patel, The Cognitive Revolution, Lex Fridman, Hard Fork,
   Odd Lots, The Information's 411, MIT Tech Review podcasts
   — read specifically for the "what does a well-prepared
   senior-architect interview sound like" discipline
-  <!-- needs-research: refresh the state of the AI-adjacent
-  long-form podcast landscape at time of use -->
 - Dan Heath and Chip Heath — *Made to Stick* (reinforced from
   Week 1; the "will the audience remember this tomorrow"
   discipline applied to speaking)
 - Published post-crisis-interview postmortems from AI-industry
   incidents — read as the "how not to do it" reference
-  <!-- needs-research: assemble a current short list of
-  AI-industry executive-interview failure cases at time of use -->
 
 **Exercise:** For an upcoming keynote at a named conference,
 produce:
@@ -981,34 +962,24 @@ covering:
   management), ISO/IEC 22989 (AI concepts and terminology),
   ISO/IEC 23053 (framework for ML systems) — read as the
   standing vocabulary of SC 42 work
-  <!-- needs-research: confirm current revisions and any
-  additional published SC 42 standards at time of use -->
 - MLCommons benchmark specifications (MLPerf Training / Inference
   / Storage / Client / HPC / Mobile; AILuminate; MedPerf) and
   the governance documents of each working group
-  <!-- needs-research: refresh the MLCommons working-group and
-  benchmark landscape at time of use -->
 - Linux Foundation AI & Data Trusted AI Committee published
   materials; PyTorch Foundation governance; ONNX governance
-  <!-- needs-research: refresh the LF AI & Data landscape at
-  time of use -->
 - OpenSSF SLSA and Sigstore specifications and their applied
   use for model and dataset artifact provenance
 - OWASP Top 10 for Large Language Model Applications and
   OWASP Machine Learning Security Top 10
-  <!-- needs-research: refresh the OWASP AI-security landscape
-  at time of use -->
 - IEEE P7000-series ethics-and-transparency standards and the
   ongoing AI-specific working groups
-  <!-- needs-research: refresh the IEEE AI-standards docket at
-  time of use -->
 - *Standards competition-law* guidance — the FTC/DOJ guidance
   on standards-setting, the EC horizontal-cooperation
   guidelines on standardization, and the CMA equivalents, as
   the governance context for competitor coordination in
-  standards bodies
-  <!-- needs-research: refresh competition-authority guidance
-  on standards-setting at time of use -->
+  standards bodies (noting the December 2024 withdrawal of the
+  DOJ/FTC Antitrust Guidelines for Collaborations Among
+  Competitors)
 - Clayton Christensen — *The Innovator's Dilemma* (reinforced
   from MOD-404) for the "why incumbents under-invest in the
   standards that encode the next generation" frame
@@ -1074,48 +1045,37 @@ join. Produce:
   implementing-act and delegated-act consultations opened by
   the European AI Office — read as a live comment-filing
   surface
-  <!-- needs-research: refresh the state of EU AI Act
-  implementing-act and delegated-act consultations at time of
-  use -->
 - NIST AI 100-1 and NIST AI 600-1, plus the workshop and
   comment-docket cadence maintained by the NIST AI program;
-  AISI (US) and AISI-UK published materials
-  <!-- needs-research: refresh the NIST AI docket, AISI (US),
-  and AISI-UK publication cadence at time of use -->
+  the US Center for AI Standards and Innovation (CAISI,
+  formerly AISI, renamed June 2025) and the UK AI Security
+  Institute (renamed from AI Safety Institute in February
+  2025) published materials
 - OECD AI Principles (Recommendation of the Council on
   Artificial Intelligence) and the OECD AI Policy Observatory;
   Hiroshima AI Process Code of Conduct and progress reports
-  <!-- needs-research: refresh the OECD and G7 Hiroshima AI
-  Process docket at time of use -->
 - Council of Europe Framework Convention on Artificial
   Intelligence and Human Rights, Democracy and the Rule of Law
-  — text and ratification status
-  <!-- needs-research: refresh the Council of Europe AI
-  Framework Convention ratification status at time of use -->
-- UN AI Advisory Body final report and the Global Digital
-  Compact process documents
-  <!-- needs-research: refresh the UN AI governance process
-  status at time of use -->
+  — text and ratification status (entered into force 1 November
+  2025)
+- UN AI Advisory Body final report ("Governing AI for
+  Humanity," September 2024) and the Global Digital Compact
+  process documents, plus the Global Dialogue on AI Governance
+  (launched September 2025) and the Independent International
+  Scientific Panel on AI established under the Compact
 - Primary-source US state AI law texts and their open
   rulemaking dockets — Colorado AI Act, California ADMT
   regulations, NYC Local Law 144, Illinois BIPA-and-
   analogues, and the growing state employment / insurance /
   lending AI laws
-  <!-- needs-research: refresh US state AI law effective dates
-  and open rulemakings at time of use -->
 - Sectoral regulator AI-adjacent materials — FTC, FDA, SEC,
   OCC, FINRA, EEOC, HHS OCR, CFPB (as applicable to the
   organization's workload mix); UK ICO, CMA, Ofcom; EC
   sectoral directorates
-  <!-- needs-research: refresh the state of sectoral regulator
-  AI guidance at time of use -->
 - Published congressional-testimony and parliamentary-testimony
   transcripts from senior AI-industry executives and
   researchers — read for structural choice, standing-position
   discipline, and "do not get drawn into" posture
-  <!-- needs-research: assemble a current short list of
-  AI-industry executive and researcher testimony at time of
-  use -->
 - Barbara Minto — *The Pyramid Principle* (reinforced from
   MOD-402, MOD-407, and MOD-408) as the structural reference
   for comment drafting and testimony outlining
@@ -1193,15 +1153,10 @@ through legal, communications, and the executive office.
 - Published AI-industry crisis-communication postmortems and
   the "what we would have done differently" essays from
   former communications leaders
-  <!-- needs-research: assemble a current short list of
-  published AI-industry crisis-communication postmortems at
-  time of use -->
 - Primary-source *corporate and executive departure letters*
   and open letters from AI-industry transitions as reference
   patterns for the "what the organization said on the way out"
   and "what the organization did not say" discipline
-  <!-- needs-research: refresh the state of AI-industry
-  departure-letter and open-letter patterns at time of use -->
 - Gary Klein, HBR — "Performing a Project Premortem"
   (reinforced from MOD-402, MOD-404, MOD-406, MOD-407, MOD-408;
   applied here to the thought-leadership-program-failure
