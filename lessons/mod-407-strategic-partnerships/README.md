@@ -97,9 +97,6 @@ By the end of this module, you will be able to:
      specialist labs) and the way each layer participates in
      different partnership shapes (API, hosted, VPC-isolated,
      licensed-weights, custom-trained)
-     <!-- needs-research: refresh the current frontier-lab list,
-     their publicly disclosed hyperscaler affiliations, and their
-     model-access and deployment-option matrices at time of use -->
    - The compute and cloud layer (hyperscalers, GPU-specialist
      clouds, sovereign-cloud operators) as covered in MOD-406,
      now read as *partnerships* rather than as infrastructure
@@ -163,9 +160,6 @@ By the end of this module, you will be able to:
      insurance and indemnification capacity — AI vendors in 2026
      range from pre-revenue to trillion-dollar-market-cap, and
      the counterparty profile is the first filter
-     <!-- needs-research: refresh the public funding and revenue
-     disclosures for major frontier labs and AI-platform vendors
-     at time of use -->
    - *Legal and regulatory* — IP posture on training data and
      model outputs, data-use and residency commitments, EU AI Act
      role (provider, deployer, authorised representative),
@@ -175,9 +169,6 @@ By the end of this module, you will be able to:
      ISO/IEC 42001, FedRAMP tier, HIPAA readiness, penetration-
      test history, incident history, responsible-disclosure track
      record, operator-access controls
-     <!-- needs-research: confirm current ISO/IEC 42001 certified
-     AI vendors at time of use; the certified-population is
-     growing but still small -->
    - *Operational* — uptime and incident history, documented RPO
      and RTO, change-management discipline, model-version
      policy, deprecation and sunset posture
@@ -192,20 +183,12 @@ By the end of this module, you will be able to:
      the audit trail available to an enterprise buyer under
      GDPR, the EU AI Act Article 10 and Article 53, and emerging
      US state transparency obligations
-     <!-- needs-research: refresh the EU AI Act GPAI training-
-     data transparency template status (Code of Practice,
-     implementing acts, AI Office guidance) at time of use -->
    - *Evaluation posture* — standardized benchmarks (MMLU, HELM,
      HumanEval, SWE-bench, MMMU, and successor suites), the
      vendor's own hazard and safety evaluations, third-party
      evaluation relationships, red-team program maturity, and
      the *vendor's willingness to let the buyer evaluate on
      buyer-provided data*
-     <!-- needs-research: current state of leading public
-     benchmarks and the frontier-model hazard-evaluation
-     landscape (UK AISI, US AISI, METR, Apollo, Anthropic
-     RSP-style disclosures, OpenAI preparedness reports,
-     Google Frontier Safety Framework reports) -->
    - *Safety and trust & safety* — classifiers, usage policies,
      enforcement history, allowlist / blocklist semantics,
      region- and tenant-level policy options, incident
@@ -225,9 +208,6 @@ By the end of this module, you will be able to:
    - Enterprise discount program structure (EDP for AWS, MACC
      for Azure, Google CUD / commits) and the way AI-specific
      consumption nests inside these umbrella commitments
-     <!-- needs-research: refresh current EDP/MACC/CUD discount
-     mechanics and AI-service-specific commit instruments at
-     time of use -->
    - Reserved vs. on-demand vs. spot for accelerator inventory,
      and the way reserved commitments calcify a partnership
    - Capacity commitments — the de facto compute-reservation
@@ -282,9 +262,6 @@ By the end of this module, you will be able to:
      shield" clauses that vendors now offer, their caps, their
      conditions (acceptable-use compliance, no-opt-out from
      safety mitigations), and what they exclude
-     <!-- needs-research: confirm current scope and caps of
-     publicly announced copyright-indemnity programs from major
-     model vendors and hyperscalers at time of use -->
    - *Evaluation and audit rights* — the buyer's right to
      evaluate on buyer-provided data, to run red-team exercises,
      to access model cards and system cards, and to inspect the
@@ -327,30 +304,17 @@ By the end of this module, you will be able to:
      hyperscaler and model-vendor migration programs that fund
      a buyer's switching cost, and the way these should be
      treated in TCO and lock-in analysis
-     <!-- needs-research: refresh current major vendor
-     migration-funding programs and their public eligibility
-     terms at time of use -->
 
 10. **Data-partner and training-data licensing specifics**
     - *Content-license* structures for text, image, audio,
       and video training data — the "license for model
       training" category that emerged after 2023 and is still
       consolidating
-      <!-- needs-research: refresh the landscape of major
-      content-licensing deals (news publishers with OpenAI /
-      Anthropic / Google, Reddit, Stack Overflow, Shutterstock,
-      Getty, music catalog deals) and the standard clause
-      patterns -->
     - *Opt-out, right-to-be-forgotten, and TDM-exception*
       mechanics across jurisdictions (EU DSM Directive Article
       4, UK TDM exception, US fair-use posture under current
       litigation, Japan Article 30-4 copyright exception),
       and the way a data vendor's pipeline must express these
-      <!-- needs-research: refresh pending and decided AI
-      training-data litigation at time of use (NYT v. OpenAI,
-      multiple class actions, Getty v. Stability, etc.) and
-      the way major settlements and rulings shift the
-      contractual baseline -->
     - *Labeling and RLHF* vendor terms — worker-welfare
       commitments, provenance of labelers, contested-
       jurisdiction labor exposure, and quality-governance clauses
@@ -497,12 +461,6 @@ By the end of this module, you will be able to:
     - Revenue-share economics — the conventional 30/70,
       20/80, and specialty splits for AI apps and agents,
       and the negotiated-enterprise deviations
-      <!-- needs-research: refresh public revenue-share
-      disclosures for major AI marketplaces (Salesforce
-      AppExchange / Agentforce, Microsoft AppSource,
-      ServiceNow Store, Google / AWS / Azure AI marketplaces,
-      OpenAI GPT store, Anthropic app directory) at time of
-      use -->
     - *De-listing and enforcement* authority — the operator's
       stated and exercised right to remove, downrank, or label
       listings for safety, legal, or trust reasons
@@ -513,12 +471,6 @@ By the end of this module, you will be able to:
       MIT, BSL, SSPL, OpenMDW-era proposals), contribution
       governance, trademark policy, release-management
       discipline
-      <!-- needs-research: refresh the state of
-      source-available / "open-weights" / "open-source but
-      not OSI-approved" licensing debates for model weights at
-      time of use (Llama Community License, Qwen License,
-      DeepSeek License, Mistral AI License, Apache-2.0
-      weights, OSI-OSAID effort) -->
     - Standards participation — ISO/IEC JTC 1 SC 42 (AI),
       CEN-CENELEC JTC 21, IEEE P7000 series, NIST AI
       consortium / AISIC, MLCommons, OASIS — as a
@@ -529,10 +481,6 @@ By the end of this module, you will be able to:
       sector-specific AI consortia in finance, healthcare,
       and energy — as influence partnerships with distinct
       membership tiers and governance roles
-      <!-- needs-research: refresh current membership tiers,
-      governance roles, and public workstreams of the Frontier
-      Model Forum, AI Alliance, Partnership on AI, and sector
-      AI consortia at time of use -->
     - Standards-as-partnership — the way participation in
       drafting a standard is both a public good and a
       competitive position, and the governance disciplines
@@ -585,9 +533,6 @@ By the end of this module, you will be able to:
       or a convertible instrument in a frontier lab in exchange
       for a multi-year compute commitment) as the canonical
       AI-era alliance structure
-      <!-- needs-research: refresh publicly disclosed
-      hyperscaler-frontier-lab alliance structures and known
-      investment / commitment terms at time of use -->
     - *Strategic minority investment* — the corporate-VC
       posture that creates an inside track to a partner's
       roadmap without triggering consolidation
@@ -630,12 +575,6 @@ By the end of this module, you will be able to:
       sector third-party risk under EBA / PRA / OCC
       supervisory letters, sectoral vendor-risk expectations
       in healthcare and critical infrastructure
-      <!-- needs-research: refresh current third-party /
-      outsourcing / operational-resilience regulatory
-      expectations in financial services (PRA SS2/21, EBA
-      ICT Risk Guidelines, DORA, OCC Third-Party Risk
-      Management) and in healthcare / critical infrastructure
-      at time of use -->
     - *Reputational contagion* — a trust incident at a
       partner is a trust incident at the organization in the
       eyes of customers and regulators, and sometimes in
@@ -650,10 +589,6 @@ By the end of this module, you will be able to:
       interlocking directors, exclusive-channel deals with
       dominant vendors, "most-favored-nation" clauses with a
       market leader) are an increasing enforcement focus
-      <!-- needs-research: refresh current competition-
-      authority inquiries into major AI-industry partnerships
-      and investments (FTC, DOJ, CMA, EC, BKartA) at time of
-      use -->
 
 25. **Security and trust-and-safety risk**
     - *Shared-security-model* clarity — the vendor's
@@ -770,15 +705,10 @@ mod-407-strategic-partnerships/
 - Primary-source hyperscaler partner-program pages (AWS Partner
   Network, Microsoft AI Cloud Partner Program, Google Cloud
   Partner Advantage) as a map of partnership archetypes
-  <!-- needs-research: refresh current partner-program tier
-  structures at time of use; these are re-named roughly every
-  18 months -->
 - Frontier-lab developer and enterprise documentation on
   deployment options and partner programs (OpenAI Enterprise,
   Anthropic Enterprise and Partners, Google Cloud / Vertex AI
   partner materials, AWS Bedrock partner materials)
-  <!-- needs-research: refresh current frontier-lab enterprise
-  and partner program structures at time of use -->
 - Anu Bradford — *Digital Empires* (background on the
   regulatory and competitive frame in which AI partnerships now
   operate)
@@ -821,16 +751,10 @@ the CTO on what the map actually shows. See
   third-party / supply-chain risk categories
 - ISO/IEC 42001 — *AI management system* clauses on third-party
   AI relationships
-  <!-- needs-research: confirm current ISO/IEC 42001 clause
-  references and any published implementation guides at time
-  of use -->
 - Published due-diligence frameworks from financial-sector
   supervisors (OCC Third-Party Risk Management guidance, EBA
   Guidelines on outsourcing arrangements, UK PRA SS2/21,
   EU DORA on ICT third-party risk)
-  <!-- needs-research: confirm current revisions and effective
-  dates of each at time of use; financial-services third-party
-  risk guidance is an active regulatory frontier -->
 - Primary-source vendor transparency documents — model cards,
   system cards, usage policies, trust centers, sub-processor
   lists — from the counterparties in your Week 1 inventory
@@ -896,14 +820,8 @@ covering:
 - IAPP — *AI Vendor Risk Management* practical guidance; and
   the relevant SIG (Shared Assessments) and CAIQ (CSA)
   questionnaires as a floor rather than a ceiling
-  <!-- needs-research: confirm current IAPP, Shared
-  Assessments, and Cloud Security Alliance AI-vendor
-  questionnaire versions at time of use -->
 - Published IP-indemnity program documents from major model
   vendors and hyperscalers
-  <!-- needs-research: refresh the current scope, caps, and
-  conditions of the major copyright-indemnity programs at
-  time of use -->
 - The organization's own existing AI vendor contracts, as a
   gap-analysis input against the standing-position clause set
 
@@ -959,13 +877,8 @@ covering:
   Anthropic, Google-Anthropic, Oracle-OpenAI, NVIDIA
   investments in frontier labs, sovereign-vendor alliances
   (e.g., Microsoft-G42)
-  <!-- needs-research: refresh the current list of major
-  publicly disclosed AI alliances with commitment scale and
-  governance disclosures at time of use -->
 - Frontier Model Forum, Partnership on AI, AI Alliance public
   governance documents
-  <!-- needs-research: refresh membership, workstream, and
-  governance documents at time of use -->
 - MLCommons / MLPerf governance and participation structure
 - Published joint-research-partnership templates from
   university tech-transfer offices (Stanford OTL, MIT TLO,
@@ -975,8 +888,6 @@ covering:
   the "open-source for model weights" debate (Llama Community
   License, Qwen License, DeepSeek License, Mistral AI License,
   Apache-2.0 weights releases, the OSI OSAID effort)
-  <!-- needs-research: refresh license landscape at time of use;
-  this is an actively contested area -->
 
 **Case Study:** Your organization is negotiating a strategic
 alliance with a frontier lab that includes a multi-year compute
